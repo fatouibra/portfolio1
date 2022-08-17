@@ -1,0 +1,160 @@
+ 
+p{
+font-size: 20px;
+text-align: center;
+
+ }
+ #table li a{
+list-style-type: none;
+font-size: 25px;
+ }
+ 
+
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:palevioletred;
+  
+}
+
+li {
+  float: right;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  text-align: center;
+  background-color:beige;
+}
+
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:blanchedalmond;
+  
+}
+li:first-child{
+    float: left;
+}
+
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: palevioletred;
+  
+
+}
+img{
+  width: 900px;
+  margin-left: 100px;
+  height: 400px;
+  
+}
+
+.contenu-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:beige;
+  
+  
+}
+h2{
+  font-size: 30px;
+
+  
+
+}
+.paragraphe{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background-color: beige;
+
+}
+.content-image{
+
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+ background-color: beige;
+ 
+ 
+}
+ 
+
+  
+.image1{
+  align-items: center;
+  margin:auto;
+}
+footer{
+  text-align: center;
+  background-color:palevioletred;
+  height: 70px;
+  padding-top: 50px;
+  border-top: 10px solid beige;
+
+  
+}
+
+ input[type=texte],textarea{
+  width: 50%;
+  padding: 12px;
+  border: 1pxsolide#ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+ }
+ input[type=submit]{
+  background-color:palevioletred;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+ }
+ input[type=submit]:hover{
+  background-color:blanchedalmond;
+  text-align: center;
+ }
+ .container{
+  border-radius: 5px;
+  background-color:beige;
+  padding: 20px;
+  text-align: center;
+ 
+  
+ }
+ 
+ 
+ .image1{
+  margin-left:-60px;
+  
+ }
+.message{
+  text-align: center;
+}
+.submit{
+  text-align: center;
+}
+footer p{
+  margin-top: 40px;
+  color:white;
+}
